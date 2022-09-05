@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+}
+
+.chat-container {
+    margin-left: 175px;
+    margin-top: 76px;
+    width: 570px;
+    height: 628px;
+    background-color: #F5F5F8;
+    border-radius: 7px;
+    border: 1px solid #232C5E36;
+    box-shadow: 0 6px 25px rgba(19, 35, 68, 0.1);
+}
+
+.login-field {
+    margin-top: 97px;
+    margin-left: 130px;
+    max-height: 169px;
+    width: 370px;
+    border: 1px solid #232C5E36;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 30px 0 30px;
+    box-shadow: 0 6px 25px rgba(19, 35, 68, 0.1);
+}
+
+.login-input {
+
+    margin-top: 6px;
+    border-radius: 8px;
+    border: 1px solid #232C5E;
+    padding: 18px 18.7px 17px 18.7px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.output-messages {
+    margin-top: 28px;
+    background-color: white;
+    padding-top: 28px;
+    padding-left:  32px;
+    height: 440px;
+    overflow-y: scroll
+}
+
+.send-field {
+    display: flex;
+    flex-direction: row;
+    height: 54px;
+    margin: 36px 32px 36px 32px;
+    border-radius: 8px;
+    border: 1px solid #232C5E36;
+    background-color: #FFFFFF;
+}
+
+.send-field input {
+    width: 100%;
+    padding: 17px 17px 18px 19px;
+    border: none;
+    background: none;
+}
+
+.send-button {
+    padding: 13px 14px;
+}
+
+.message-item {
+
+}
+
+.message-value {
+    display: flex;
+    flex-direction: row;
+}
+
+.name-item-output {
+    margin-top: 24px;
+    margin-bottom: 8px;
+    font-size: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5E5E5E;
+}
+
+.message-item-output {
+    padding: 16px 0 17px 17px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.message-value-field {
+    width: 329px;
+    background: #F5F5F8;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.time-item-output {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 15px;
+    color: #969696;
+    margin-right: 6px;
+    margin-top: 30px;
+}
+
+.login-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #5E5E5E;
+}
+
+.delete-item {
+    margin-left: 8px;
+}
+
+.message-name {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #222222;
+}
+
+.output-messages::-webkit-scrollbar {
+    width: 5px;
+    margin-right: 4px;
+}
+
+.output-messages::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
